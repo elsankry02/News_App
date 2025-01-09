@@ -28,6 +28,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  auto_route: ^9.3.0
   cached_network_image: ^3.4.1
   carousel_slider: ^5.0.0
   cupertino_icons: ^1.0.6
@@ -46,6 +47,8 @@ dependencies:
   shared_preferences: ^2.2.3
   shimmer: ^3.0.0
 dev_dependencies:
+  auto_route_generator: ^9.3.0
+  build_runner: ^2.4.14
   flutter_lints: ^4.0.0
 
 flutter_launcher_icons:
