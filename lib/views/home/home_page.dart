@@ -7,8 +7,8 @@ import 'package:news_app/core/constants/color_manger.dart';
 import 'package:news_app/core/components/custom_error_massage.dart';
 import 'package:news_app/core/components/custom_switch.dart';
 import 'package:news_app/core/router/router.dart';
-import 'package:news_app/views/manger/featch_home_slider/featch_home_slider_cubit.dart';
-import 'package:news_app/views/pages/home_page/shimmer/shimmer_home.dart';
+import 'package:news_app/manger/featch_home_slider/featch_home_slider_cubit.dart';
+import 'package:news_app/views/home/shimmer/shimmer_home.dart';
 
 import '../future_programming/widget/future_programming_widget.dart';
 import 'widget/carousel_slider_widget.dart';

@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news_app/core/components/custom_switch.dart';
 import 'package:news_app/core/utils/api_service.dart';
-import 'package:news_app/views/manger/featch_search_tabs/featch_search_tabs_cubit.dart';
+import 'package:news_app/manger/featch_search_tabs/featch_search_tabs_cubit.dart';
 
 import 'widget/search_container_text.dart';
 import 'widget/search_result_widget.dart';

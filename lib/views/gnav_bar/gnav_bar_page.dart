@@ -2,10 +2,10 @@ import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
-import 'package:news_app/views/pages/global_page/global_page.dart';
-import 'package:news_app/views/pages/home_page/home_page.dart';
-import 'package:news_app/views/pages/profile/profile_page.dart';
-import 'package:news_app/views/pages/search/search_page.dart';
+import 'package:news_app/views/global_page/global_page.dart';
+import 'package:news_app/views/home/home_page.dart';
+import 'package:news_app/views/profile/profile_page.dart';
+import 'package:news_app/views/search/search_page.dart';
 
 @RoutePage()
 class GNavBarPage extends StatefulWidget {

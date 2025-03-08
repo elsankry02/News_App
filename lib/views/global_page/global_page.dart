@@ -5,10 +5,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news_app/core/components/custom_error_massage.dart';
 import 'package:news_app/core/components/custom_switch.dart';
 import 'package:news_app/core/utils/api_service.dart';
-import 'package:news_app/views/manger/featch_global_tebs/global_tebs_cubit.dart';
-import 'package:news_app/views/pages/global_page/shimmer/shimmer_global.dart';
+import 'package:news_app/manger/featch_global_tebs/global_tebs_cubit.dart';
+import 'package:news_app/views/global_page/shimmer/shimmer_global.dart';
 
-import '../../../core/components/custom_card_details.dart';
+import '../../core/components/custom_card_details.dart';
 
 class GlobalPage extends StatelessWidget {
   const GlobalPage({super.key});

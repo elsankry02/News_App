@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:news_app/core/constants/image_manger.dart';
 import 'package:news_app/models/news_models.dart';
 
-import '../../../../core/components/custom_shimmer.dart';
+import '../../../core/components/custom_shimmer.dart';
 
 class CarouselSliderWidget extends StatelessWidget {
   final Articles articles;

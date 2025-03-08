@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:news_app/core/components/custom_shimmer.dart';
 import 'package:news_app/core/constants/color_manger.dart';
 import 'package:news_app/core/constants/image_manger.dart';
-import 'package:news_app/core/helpers/date_formate.dart';
+import 'package:news_app/core/components/custom_date_formate.dart';
 import 'package:news_app/models/news_models.dart';
 
 @RoutePage()
