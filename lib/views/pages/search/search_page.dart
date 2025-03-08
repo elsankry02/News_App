@@ -6,8 +6,8 @@ import 'package:news_app/core/components/custom_switch.dart';
 import 'package:news_app/core/utils/api_service.dart';
 import 'package:news_app/views/data/manger/featch_search_tabs/featch_search_tabs_cubit.dart';
 
-import 'widget/search_result_widget.dart';
 import 'widget/search_container_text.dart';
+import 'widget/search_result_widget.dart';
 import 'widget/text_filed_widget.dart';
 
 class SearchPage extends StatelessWidget {

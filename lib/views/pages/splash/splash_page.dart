@@ -1,6 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:news_app/core/constants/image_manger.dart';
 import 'package:news_app/core/router/router.dart';
 
 @RoutePage()
@@ -38,7 +39,7 @@ class _SplashPageState extends State<SplashPage> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image.asset(
-            'assets/images/news.png',
+            ImageManger.kNews,
             color: theme.primaryColor,
           )
         ],

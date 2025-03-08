@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news_app/core/components/color_manger.dart';
+import 'package:news_app/core/constants/color_manger.dart';
 import 'package:news_app/views/data/manger/featch_search_tabs/featch_search_tabs_cubit.dart';
 
 import '../../../../core/components/custom_text_card.dart';
@@ -15,15 +15,6 @@ class SearchContanierText extends StatefulWidget {
 class _SearchContanierTextState extends State<SearchContanierText> {
   int currentIndex = 0;
 
-  final List tabs = [
-    'business',
-    'entertainment',
-    'general',
-    'health',
-    'science',
-    'sport',
-    'technology',
-  ];
   @override
   Widget build(BuildContext context) {
     return SizedBox(
@@ -55,10 +46,19 @@ class _SearchContanierTextState extends State<SearchContanierText> {
       child: CustomCardDetailsTabs(
         text: tabs[index],
         colorText: currentIndex == index ? Colors.white : Colors.grey,
-        colorTybe: currentIndex == index
-            ? theme.primaryColor
-            : ColorManger.klightGrey,
+        colorTybe:
+            currentIndex == index ? theme.primaryColor : ColorManger.klightGrey,
       ),
     );
   }
+
+  final List tabs = [
+    'business',
+    'entertainment',
+    'general',
+    'health',
+    'science',
+    'sport',
+    'technology',
+  ];
 }

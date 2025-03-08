@@ -2,8 +2,9 @@ import 'package:auto_route/auto_route.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:news_app/core/components/color_manger.dart';
 import 'package:news_app/core/components/custom_shimmer.dart';
+import 'package:news_app/core/constants/color_manger.dart';
+import 'package:news_app/core/constants/image_manger.dart';
 import 'package:news_app/core/helpers/date_formate.dart';
 import 'package:news_app/views/data/models/news_models.dart';
 
@@ -50,7 +51,7 @@ class CardDetailsPage extends StatelessWidget {
                   imageUrl: article.urlToImage ?? '',
                   placeholder: (context, url) => const CustomShimmer(),
                   errorWidget: (context, url, error) => Image.asset(
-                    'assets/images/error_image.png',
+                    ImageManger.kErrorImage,
                     fit: BoxFit.fill,
                     width: double.infinity,
                   ),

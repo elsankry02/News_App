@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:news_app/core/components/color_manger.dart';
+import 'package:news_app/core/constants/color_manger.dart';
 import 'package:news_app/core/components/custom_icon_and_date.dart';
 import 'package:news_app/core/components/custom_shimmer.dart';
 import 'package:news_app/views/data/models/news_models.dart';

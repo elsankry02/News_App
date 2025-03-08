@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:news_app/core/constants/image_manger.dart';
 
 import 'widget/linkes_profile_widget.dart';
 
@@ -20,7 +21,7 @@ class ProfilePage extends StatelessWidget {
           height: 60,
         ),
         Image.asset(
-          'assets/images/news.png',
+          ImageManger.kNews,
           color: theme.primaryColor,
         ),
         const SizedBox(
