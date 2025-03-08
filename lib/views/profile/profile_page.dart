@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:news_app/core/constants/image_manger.dart';
+import '../../core/constants/image_manger.dart';
 
 import 'widget/linkes_profile_widget.dart';
 

@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:news_app/core/constants/image_manger.dart';
-import 'package:news_app/models/news_models.dart';
+import '../../../core/constants/image_manger.dart';
+import '../../../models/news_models.dart';
 
 import '../../../core/components/custom_shimmer.dart';
 

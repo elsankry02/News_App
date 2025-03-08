@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news_app/manger/set_data/set_data_cubit.dart';
+import '../../manger/set_data/set_data_cubit.dart';
 
 class CustomSwitch extends StatefulWidget {
   const CustomSwitch({super.key});

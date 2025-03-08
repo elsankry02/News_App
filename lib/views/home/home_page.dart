@@ -3,12 +3,12 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news_app/core/constants/color_manger.dart';
-import 'package:news_app/core/components/custom_error_massage.dart';
-import 'package:news_app/core/components/custom_switch.dart';
-import 'package:news_app/core/router/router.dart';
-import 'package:news_app/manger/featch_home_slider/featch_home_slider_cubit.dart';
-import 'package:news_app/views/home/shimmer/shimmer_home.dart';
+import '../../core/constants/color_manger.dart';
+import '../../core/components/custom_error_massage.dart';
+import '../../core/components/custom_switch.dart';
+import '../../core/router/router.dart';
+import '../../manger/featch_home_slider/featch_home_slider_cubit.dart';
+import 'shimmer/shimmer_home.dart';
 
 import '../future_programming/widget/future_programming_widget.dart';
 import 'widget/carousel_slider_widget.dart';

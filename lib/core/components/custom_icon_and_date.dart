@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/core/constants/color_manger.dart';
-import 'package:news_app/core/components/custom_date_formate.dart';
+import '../constants/color_manger.dart';
+import 'custom_date_formate.dart';
 
 class CustomIconAndDate extends StatelessWidget {
   final String date;

@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news_app/core/error/errors.dart';
-import 'package:news_app/core/utils/api_service.dart';
+import '../../core/error/errors.dart';
+import '../../core/utils/api_service.dart';
 
 import '../../models/news_models.dart';
 part 'global_tebs_state.dart';

@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:news_app/core/constants/color_manger.dart';
-import 'package:news_app/core/components/custom_icon_and_date.dart';
-import 'package:news_app/core/components/custom_shimmer.dart';
-import 'package:news_app/models/news_models.dart';
-import 'package:news_app/views/card_details/card_details_page.dart';
+import '../constants/color_manger.dart';
+import 'custom_icon_and_date.dart';
+import 'custom_shimmer.dart';
+import '../../models/news_models.dart';
+import '../../views/card_details/card_details_page.dart';
 
 class CustomCardDetails extends StatelessWidget {
   const CustomCardDetails({super.key, required this.article});

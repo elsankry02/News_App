@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/core/constants/color_manger.dart';
-import 'package:news_app/core/components/custom_shimmer_details.dart';
-import 'package:news_app/views/home/shimmer/widget/shimmer_slider_widget.dart';
+import '../../../core/constants/color_manger.dart';
+import '../../../core/components/custom_shimmer_details.dart';
+import 'widget/shimmer_slider_widget.dart';
 import 'package:shimmer/shimmer.dart';
 
 class ShimmerHome extends StatelessWidget {

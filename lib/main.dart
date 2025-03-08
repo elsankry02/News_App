@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/app.dart';
+import 'app.dart';
 
 import 'cache/cache_helper.dart';
 
