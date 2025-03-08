@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:news_app/home/data/models/news_models.dart';
+import 'package:news_app/views/data/models/news_models.dart';
 
 import '../../../../core/components/custom_shimmer.dart';
 
