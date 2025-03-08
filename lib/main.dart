@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news_app/core/constants/color_manger.dart';
 import 'package:news_app/core/router/router.dart';
-import 'package:news_app/views/data/manger/featch_future_programming/future_programming_cubit.dart';
-import 'package:news_app/views/data/manger/featch_home_slider/featch_home_slider_cubit.dart';
-import 'package:news_app/views/data/manger/set_data/set_data_cubit.dart';
+import 'package:news_app/views/manger/featch_future_programming/future_programming_cubit.dart';
+import 'package:news_app/views/manger/featch_home_slider/featch_home_slider_cubit.dart';
+import 'package:news_app/views/manger/set_data/set_data_cubit.dart';
 
 import 'cache/cache_helper.dart';
 import 'core/utils/api_service.dart';

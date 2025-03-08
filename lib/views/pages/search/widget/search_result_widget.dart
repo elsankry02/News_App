@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news_app/views/data/manger/featch_search_tabs/featch_search_tabs_cubit.dart';
+import 'package:news_app/views/manger/featch_search_tabs/featch_search_tabs_cubit.dart';
 
 import '../../../../core/components/custom_error_massage.dart';
 import '../../../../core/components/custom_card_details.dart';

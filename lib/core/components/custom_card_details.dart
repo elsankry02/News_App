@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:news_app/core/constants/color_manger.dart';
 import 'package:news_app/core/components/custom_icon_and_date.dart';
 import 'package:news_app/core/components/custom_shimmer.dart';
-import 'package:news_app/views/data/models/news_models.dart';
+import 'package:news_app/models/news_models.dart';
 import 'package:news_app/views/pages/card_details/card_details_page.dart';
 
 class CustomCardDetails extends StatelessWidget {
