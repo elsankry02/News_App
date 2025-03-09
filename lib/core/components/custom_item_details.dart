@@ -1,22 +1,22 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:news_app/core/router/router.dart';
+
+import '../../models/news_models.dart';
 import '../constants/color_manger.dart';
 import 'custom_icon_and_date.dart';
 import 'custom_shimmer.dart';
-import '../../models/news_models.dart';
-import '../../views/card_details/card_details_page.dart';
 
-class CustomCardDetails extends StatelessWidget {
-  const CustomCardDetails({super.key, required this.article});
+class CustomitemsDetails extends StatelessWidget {
+  const CustomitemsDetails({super.key, required this.article});
   final Articles article;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => Navigator.of(context).push(MaterialPageRoute(
-        builder: (context) => CardDetailsPage(
-          article: article,
-        ),
-      )),
+      onTap: () => context.router.replace(
+        CardDetailsRoute(article: article),
+      ),
       child: Row(
         children: [
           ClipRRect(

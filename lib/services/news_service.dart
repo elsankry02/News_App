@@ -1,10 +1,11 @@
 import 'package:dio/dio.dart';
-import 'package:news_app/models/news_models.dart';
+
+import '../models/news_models.dart';
 
 class NewsService {
   final Dio dio;
   final paseUrl = 'https://newsapi.org/v2/everything';
-  final apiKey = '54809955f4c649c1bd962b7cdd43c336';
+  final apiKey = '87f2c3d6a8dc497985d1fc2fa0841a82';
   NewsService({required this.dio});
 
   Future<List<Articles>> newsFunc({required String endPoint}) async {

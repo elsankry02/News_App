@@ -2,6 +2,7 @@ import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
+
 import '../global_page/global_page.dart';
 import '../home/home_page.dart';
 import '../profile/profile_page.dart';

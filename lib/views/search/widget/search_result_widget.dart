@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../manger/featch_search_tabs/featch_search_tabs_cubit.dart';
 
+import '../../../core/components/custom_item_details.dart';
 import '../../../core/components/custom_error_massage.dart';
-import '../../../core/components/custom_card_details.dart';
+import '../../../manger/featch_search_tabs/featch_search_tabs_cubit.dart';
 import '../shimmer/shimmer_card_details.dart';
 
 class SearchResultWidget extends StatelessWidget {
@@ -21,7 +21,7 @@ class SearchResultWidget extends StatelessWidget {
               itemBuilder: (context, index) {
                 return Padding(
                   padding: const EdgeInsets.only(bottom: 20),
-                  child: CustomCardDetails(
+                  child: CustomitemsDetails(
                     article: state.news[index],
                   ),
                 );

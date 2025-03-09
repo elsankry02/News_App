@@ -1,5 +1,6 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
+
 import '../../models/news_models.dart';
 import '../../views/card_details/card_details_page.dart';
 import '../../views/future_programming/future_programming_page.dart';

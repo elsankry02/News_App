@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../manger/featch_future_programming/future_programming_cubit.dart';
 
+import '../../../core/components/custom_item_details.dart';
 import '../../../core/components/custom_error_massage.dart';
+import '../../../manger/featch_future_programming/future_programming_cubit.dart';
 import '../../search/shimmer/shimmer_card_details.dart';
-import '../../../core/components/custom_card_details.dart';
 
 class FutureProgrammingWidget extends StatelessWidget {
   const FutureProgrammingWidget({super.key});
@@ -22,7 +22,7 @@ class FutureProgrammingWidget extends StatelessWidget {
               itemBuilder: (context, index) {
                 return Padding(
                   padding: const EdgeInsets.only(bottom: 20),
-                  child: CustomCardDetails(article: state.news[index]),
+                  child: CustomitemsDetails(article: state.news[index]),
                 );
               },
             ),

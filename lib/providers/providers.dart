@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:news_app/services/news_service.dart';
+import '../services/news_service.dart';
 
 final dioProvider = Provider<Dio>((ref) {
   return Dio();
