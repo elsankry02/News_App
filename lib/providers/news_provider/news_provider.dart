@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../models/news_models.dart';
+import '../../data/models/news_models.dart';
 import '../providers.dart';
 
 final globalProvider = StateProvider<String>((ref) {

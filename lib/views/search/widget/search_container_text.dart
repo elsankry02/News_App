@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../core/constants/color_manger.dart';
-import '../../../manger/featch_search_tabs/featch_search_tabs_cubit.dart';
+import '../../../data/manger/featch_search_tabs/featch_search_tabs_cubit.dart';
 
 import '../../../core/components/custom_text_card.dart';
 

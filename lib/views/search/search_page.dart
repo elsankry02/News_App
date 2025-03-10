@@ -5,7 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../core/components/custom_switch.dart';
 import '../../core/utils/api_service.dart';
-import '../../manger/featch_search_tabs/featch_search_tabs_cubit.dart';
+import '../../data/manger/featch_search_tabs/featch_search_tabs_cubit.dart';
 import 'widget/search_container_text.dart';
 import 'widget/search_result_widget.dart';
 import 'widget/text_filed_widget.dart';

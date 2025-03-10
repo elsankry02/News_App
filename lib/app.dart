@@ -4,9 +4,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'core/constants/color_manger.dart';
 import 'core/router/router.dart';
 import 'core/utils/api_service.dart';
-import 'manger/featch_future_programming/future_programming_cubit.dart';
-import 'manger/featch_home_slider/featch_home_slider_cubit.dart';
-import 'manger/set_data/set_data_cubit.dart';
+import 'data/manger/featch_future_programming/future_programming_cubit.dart';
+import 'data/manger/featch_home_slider/featch_home_slider_cubit.dart';
+import 'data/manger/set_data/set_data_cubit.dart';
 
 class NewsApp extends StatelessWidget {
   const NewsApp({super.key});

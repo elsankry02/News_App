@@ -7,7 +7,7 @@ import '../../core/constants/color_manger.dart';
 import '../../core/components/custom_error_massage.dart';
 import '../../core/components/custom_switch.dart';
 import '../../core/router/router.dart';
-import '../../manger/featch_home_slider/featch_home_slider_cubit.dart';
+import '../../data/manger/featch_home_slider/featch_home_slider_cubit.dart';
 import 'shimmer/shimmer_home.dart';
 
 import '../future_programming/widget/future_programming_widget.dart';

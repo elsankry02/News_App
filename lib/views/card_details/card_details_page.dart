@@ -6,7 +6,7 @@ import '../../core/components/custom_shimmer.dart';
 import '../../core/constants/color_manger.dart';
 import '../../core/constants/image_manger.dart';
 import '../../core/components/custom_date_formate.dart';
-import '../../models/news_models.dart';
+import '../../data/models/news_models.dart';
 
 @RoutePage()
 class CardDetailsPage extends StatelessWidget {

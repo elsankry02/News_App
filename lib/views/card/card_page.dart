@@ -3,18 +3,19 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:news_app/core/router/router.dart';
 
-import '../../models/news_models.dart';
-import '../constants/color_manger.dart';
-import 'custom_icon_and_date.dart';
-import 'custom_shimmer.dart';
+import '../../core/components/custom_icon_and_date.dart';
+import '../../core/components/custom_shimmer.dart';
+import '../../core/constants/color_manger.dart';
+import '../../data/models/news_models.dart';
 
-class CustomitemsDetails extends StatelessWidget {
-  const CustomitemsDetails({super.key, required this.article});
+@RoutePage()
+class CardPage extends StatelessWidget {
+  const CardPage({super.key, required this.article});
   final Articles article;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => context.router.replace(
+      onTap: () => context.router.push(
         CardDetailsRoute(article: article),
       ),
       child: Row(

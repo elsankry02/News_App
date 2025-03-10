@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../core/error/errors.dart';
-import '../../core/utils/api_service.dart';
+import '../../../core/error/errors.dart';
+import '../../../core/utils/api_service.dart';
 
 import '../../models/news_models.dart';
 

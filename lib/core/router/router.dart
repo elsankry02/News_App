@@ -1,7 +1,8 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
+import 'package:news_app/views/card/card_page.dart';
 
-import '../../models/news_models.dart';
+import '../../data/models/news_models.dart';
 import '../../views/card_details/card_details_page.dart';
 import '../../views/future_programming/future_programming_page.dart';
 import '../../views/gnav_bar/gnav_bar_page.dart';
@@ -19,5 +20,6 @@ class AppRouter extends RootStackRouter {
         AutoRoute(page: CardDetailsRoute.page),
         AutoRoute(page: FutureProgrammingRoute.page),
         AutoRoute(page: GNavBarRoute.page),
+        AutoRoute(page: CardRoute.page),
       ];
 }

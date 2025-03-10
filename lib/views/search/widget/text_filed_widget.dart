@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import '../../../core/constants/color_manger.dart';
-import '../../../manger/featch_search_tabs/featch_search_tabs_cubit.dart';
+import '../../../data/manger/featch_search_tabs/featch_search_tabs_cubit.dart';
 
 class TextFiledWidget extends StatelessWidget {
   const TextFiledWidget({super.key});

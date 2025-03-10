@@ -48,6 +48,43 @@ class CardDetailsRouteArgs {
 }
 
 /// generated route for
+/// [CardPage]
+class CardRoute extends PageRouteInfo<CardRouteArgs> {
+  CardRoute({
+    Key? key,
+    required Articles article,
+    List<PageRouteInfo>? children,
+  }) : super(
+         CardRoute.name,
+         args: CardRouteArgs(key: key, article: article),
+         initialChildren: children,
+       );
+
+  static const String name = 'CardRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      final args = data.argsAs<CardRouteArgs>();
+      return CardPage(key: args.key, article: args.article);
+    },
+  );
+}
+
+class CardRouteArgs {
+  const CardRouteArgs({this.key, required this.article});
+
+  final Key? key;
+
+  final Articles article;
+
+  @override
+  String toString() {
+    return 'CardRouteArgs{key: $key, article: $article}';
+  }
+}
+
+/// generated route for
 /// [FutureProgrammingPage]
 class FutureProgrammingRoute extends PageRouteInfo<void> {
   const FutureProgrammingRoute({List<PageRouteInfo>? children})
