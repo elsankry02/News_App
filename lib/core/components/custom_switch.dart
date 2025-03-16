@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
 import '../../data/manger/set_data/set_data_cubit.dart';
 
 class CustomSwitch extends StatefulWidget {
@@ -17,10 +18,9 @@ class _CustomSwitchState extends State<CustomSwitch> {
         activeTrackColor: Colors.amber,
         inactiveThumbColor: Colors.white,
         inactiveTrackColor: Colors.blue,
-        value: BlocProvider.of<SetDataCubit>(context).getData() ?? false,
+        value: BlocProvider.of<SetDataCubit>(context).getTheme() ?? false,
         onChanged: (value) async {
-          await BlocProvider.of<SetDataCubit>(context)
-              .upDateTheme(value: value);
+          await BlocProvider.of<SetDataCubit>(context).setTheme(value: value);
           setState(() {});
         });
   }

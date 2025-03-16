@@ -1,6 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
 import 'core/constants/color_manger.dart';
 import 'core/router/router.dart';
 import 'core/utils/api_service.dart';
@@ -19,7 +20,8 @@ class NewsApp extends StatelessWidget {
         builder: (context, state) {
           final isDarkTheme = state is SetDataSuccess ? state.isDark : false;
 
-          final isThemeSaved = BlocProvider.of<SetDataCubit>(context).getData();
+          final isThemeSaved =
+              BlocProvider.of<SetDataCubit>(context).getTheme();
           return MultiBlocProvider(
             providers: [
               BlocProvider(
