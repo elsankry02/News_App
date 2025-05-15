@@ -4,9 +4,9 @@ import 'package:flutter/services.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 
 import '../global_page/global_page.dart';
-import '../home/home_page.dart';
-import '../profile/profile_page.dart';
-import '../search/search_page.dart';
+import '../home_page/home_page.dart';
+import '../profile_page/profile_page.dart';
+import '../search_page/search_page.dart';
 
 @RoutePage()
 class GNavBarPage extends StatefulWidget {

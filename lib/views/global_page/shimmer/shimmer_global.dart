@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../core/constants/color_manger.dart';
-import '../../../core/components/custom_shimmer_details.dart';
+import '../../../constants/color_manger.dart';
+import '../../../components/custom_shimmer_details.dart';
 import 'package:shimmer/shimmer.dart';
 
 class ShimmerGlobal extends StatelessWidget {

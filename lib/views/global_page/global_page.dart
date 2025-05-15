@@ -1,12 +1,12 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news_app/core/components/custom_error_massage.dart';
-import 'package:news_app/core/utils/api_service.dart';
-import 'package:news_app/data/manger/featch_global_tebs/global_tebs_cubit.dart';
+import 'package:news_app/components/custom_error_massage.dart';
+import 'package:news_app/data/bloc/featch_global_tebs/global_tebs_cubit.dart';
+import 'package:news_app/services/api_service.dart';
 
-import '../../core/components/custom_switch.dart';
-import '../card/card_page.dart';
+import '../../components/custom_switch.dart';
+import '../card_page/card_page.dart';
 import 'shimmer/shimmer_global.dart';
 
 class GlobalPage extends StatelessWidget {
