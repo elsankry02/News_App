@@ -1,42 +1,37 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:news_app/features/future_programming_page/data/future_programming_cubit/future_programming_cubit.dart';
 
-import 'constants/color_manger.dart';
-import 'router/router.dart';
-import 'services/api_service.dart';
-import 'data/bloc/featch_future_programming/future_programming_cubit.dart';
-import 'data/bloc/featch_home_slider/featch_home_slider_cubit.dart';
-import 'data/bloc/set_data/set_data_cubit.dart';
+import 'core/constants/color_manger.dart';
+import 'core/router/router.dart';
+import 'core/services/api_service.dart';
+import 'features/home_page/data/change_theme_cubit/change_theme_cubit.dart';
+import 'features/home_page/data/home_slider_cubit/home_slider_cubit.dart';
 
 class NewsApp extends StatelessWidget {
   const NewsApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider<SetDataCubit>(
-      create: (context) => SetDataCubit(),
-      child: BlocBuilder<SetDataCubit, SetDataState>(
+    return BlocProvider<ChangeThemeCubit>(
+      create: (context) => ChangeThemeCubit(),
+      child: BlocBuilder<ChangeThemeCubit, ChangeThemeState>(
         builder: (context, state) {
-          final isDarkTheme = state is SetDataSuccess ? state.isDark : false;
+          final isDarkTheme =
+              state is ChangeThemeSuccess ? state.isDark : false;
 
           final isThemeSaved =
-              BlocProvider.of<SetDataCubit>(context).getTheme();
+              BlocProvider.of<ChangeThemeCubit>(context).getTheme();
           return MultiBlocProvider(
             providers: [
               BlocProvider(
-                create: (context) => FeatchHomeSliderCubit(
-                  ApiService(
-                    Dio(),
-                  ),
-                )..featchHomeSlider(),
+                create: (context) =>
+                    HomeSliderCubit(ApiService(Dio()))..featchHomeSlider(),
               ),
               BlocProvider(
-                create: (context) => FeatchFutureProgrammingCubit(
-                  ApiService(
-                    Dio(),
-                  ),
-                )..faetchrecommendationWedgit(),
+                create: (context) => FutureProgrammingCubit(ApiService(Dio()))
+                  ..faetchrecommendationWedgit(),
               ),
             ],
             child: MaterialApp.router(
