@@ -12,3 +12,4 @@ The News App is a modern Flutter application that delivers real-time news update
   - **MVVM:** The app follows the MVVM (Model-View-ViewModel) design pattern for code organization.
   - **bloc:** Utilizes Cubit for effective state management.
   - **Auto Router:** Strong and type-safe navigation with clean routing structure.
+  - **Theme Switching:** The app allows users to switch between light and dark themes for a personalized experience.
