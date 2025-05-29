@@ -11,7 +11,7 @@ class HomeShimmer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(right: 15, left: 15, top: 40),
+      padding: const EdgeInsets.only(right: 15, left: 15, top: 20),
       child: Shimmer.fromColors(
           baseColor: ColorManger.kMaterialWhiteColor,
           highlightColor: Colors.grey,

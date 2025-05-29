@@ -19,10 +19,10 @@ class _CustomSwitchState extends State<CustomSwitch> {
         inactiveThumbColor: Colors.white,
         inactiveTrackColor: Colors.blue,
         value: BlocProvider.of<ChangeThemeCubit>(context).getTheme() ?? false,
-        onChanged: (value) async {
-          await BlocProvider.of<ChangeThemeCubit>(context)
-              .setTheme(value: value);
-          setState(() {});
+        onChanged: (value) {
+          setState(() {
+            BlocProvider.of<ChangeThemeCubit>(context).setTheme(value: value);
+          });
         });
   }
 }

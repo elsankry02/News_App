@@ -1,6 +1,5 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../core/components/custom_switch.dart';
@@ -15,9 +14,6 @@ class SearchPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    SystemChrome.setSystemUIOverlayStyle(
-      const SystemUiOverlayStyle(statusBarColor: Colors.transparent),
-    );
     final theme = Theme.of(context);
     return BlocProvider<SearchCubit>(
       create: (context) => SearchCubit(
