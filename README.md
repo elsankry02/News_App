@@ -16,6 +16,8 @@ A Flutter-based mobile application designed to provide users with real-time news
 
 **AutoRoute:** Utilizes AutoRoute for type-safe and declarative routing, simplifying navigation.
 
+**Theme Switching:** Supports dynamic switching between light and dark themes, enhancing user personalization.
+
 ## 🔍 Key Features
 
 **Real-Time News Updates:** Fetches and displays the latest news articles using a reliable API.
@@ -27,3 +29,4 @@ A Flutter-based mobile application designed to provide users with real-time news
 **Search Functionality:** Enables users to search for news articles by keywords.
 
 **Responsive Design:** Ensures optimal display across various device sizes and orientations.
+
