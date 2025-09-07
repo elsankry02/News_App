@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../features/home_page/data/change_theme_cubit/change_theme_cubit.dart';
+import '../../features/data/cubits/change_theme_cubit/change_theme_cubit.dart';
 
 class CustomSwitch extends StatefulWidget {
   const CustomSwitch({super.key});
@@ -14,7 +14,7 @@ class _CustomSwitchState extends State<CustomSwitch> {
   @override
   Widget build(BuildContext context) {
     return Switch(
-        activeColor: Colors.black,
+        activeThumbColor: Colors.black,
         activeTrackColor: Colors.amber,
         inactiveThumbColor: Colors.white,
         inactiveTrackColor: Colors.blue,

@@ -1,12 +1,12 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:news_app/features/card_page/presentation/view/card_page.dart';
+import '../../features/presentation/card_page/card_page.dart';
 
-import '../../features/home_page/data/model/news_models.dart';
-import '../../features/card_details_page/presentation/view/card_details_page.dart';
-import '../../features/future_programming_page/presentation/view/future_programming_page.dart';
-import '../../features/gnav_bar/presentation/view/gnav_bar_page.dart';
-import '../../features/splash_page/presentation/view/splash_page.dart';
+import '../../features/data/model/news_models.dart';
+import '../../features/presentation/card_details_page/card_details_page.dart';
+import '../../features/presentation/future_programming_page/view/future_programming_page.dart';
+import '../../features/presentation/gnav_bar/gnav_bar_page.dart';
+import '../../features/presentation/splash_page/splash_page.dart';
 
 part 'router.gr.dart';
 

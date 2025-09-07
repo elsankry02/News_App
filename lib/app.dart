@@ -1,13 +1,13 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news_app/features/future_programming_page/data/future_programming_cubit/future_programming_cubit.dart';
 
 import 'core/constants/color_manger.dart';
 import 'core/router/router.dart';
 import 'core/services/api_service.dart';
-import 'features/home_page/data/change_theme_cubit/change_theme_cubit.dart';
-import 'features/home_page/data/home_slider_cubit/home_slider_cubit.dart';
+import 'features/data/cubits/change_theme_cubit/change_theme_cubit.dart';
+import 'features/data/cubits/future_programming_cubit/future_programming_cubit.dart';
+import 'features/data/cubits/home_slider_cubit/home_slider_cubit.dart';
 
 class NewsApp extends StatelessWidget {
   const NewsApp({super.key});

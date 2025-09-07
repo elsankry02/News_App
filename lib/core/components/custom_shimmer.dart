@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import '../constants/color_manger.dart';
 import 'package:shimmer/shimmer.dart';
+
+import '../constants/color_manger.dart';
 
 class CustomShimmer extends StatelessWidget {
   const CustomShimmer({super.key});
